@@ -47,9 +47,9 @@ Webpack有丰富的插件系统，大多数内部的功能都是基于这个插�
 
 更多参考[插件][plugins]。
 
-[code spliting]: ../GUIDES/Code Splitting.md
+[code spliting]: ../GUIDES/Code-Splitting.md
 [loaders]: ../API/Loaders.md
-[using loaders]: Using%20Loaders.md
+[using loaders]: Using-Loaders.md
 [commonJs]: ../API/CommonJs.md
 [AMD]: ../API/AMD.md
 [context]: ../API/Context.md
