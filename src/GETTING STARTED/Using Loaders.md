@@ -20,7 +20,7 @@
 - 加载器可以产出任何格式的文件
 - [等][loaders]
 
-如果对加载器使用示例有兴趣，可以查看[加载器列表][list of loaders]。
+如果对加载器使用示例有兴趣，可以查看[加载器列表][list-of-loaders]。
 
 ## 解析加载器
 
@@ -137,7 +137,7 @@ webpack --module-bind "png=url-loader?mimetype=image/png"
 ```
 
 [loaders]: ../API/Loaders.md
-[list of loaders]: ../LISTS/List of loaders.md
+[list-of-loaders]: ../LISTS/List of loaders.md
 [resolving]: ../API/Resolving.md
 [configuration]: ../API/Configuration.md
 [cli]: ../API/Cli.md
