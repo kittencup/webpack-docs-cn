@@ -136,7 +136,7 @@ require("url-loader?mimetype=image/png!./file.png");
 webpack --module-bind "png=url-loader?mimetype=image/png"
 ```
 
-[loaders]: : ../API/Loaders.md
+[loaders]: ../API/Loaders.md
 [list of loaders]: ../LISTS/List of loaders.md
 [resolving]: ../API/Resolving.md
 [configuration]: ../API/Configuration.md
