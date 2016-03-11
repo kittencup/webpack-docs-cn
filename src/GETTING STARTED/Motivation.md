@@ -97,7 +97,7 @@ define("mymodule", ["dep1", "dep2"], function(d1, d2) {
 - require.js - 客户端
 - curl - 客户端
 
-可阅读更多关于[CommonJS][CommonJs]和[AMD][AMD]的内容
+可阅读更多关于[CommonJS][commonJs]和[AMD][AMD]的内容
 
 ### ES6 模块
 
@@ -157,7 +157,7 @@ module "localModule" {}
 
 注：此[想法来自Google's GWT][Google's GWT]。
 
-可阅读更多关于[代码拆分][Code Spliting]内容。
+可阅读更多关于[代码拆分][code spliting]内容。
 
 ## 为什么只处理JavaScript？
 
@@ -189,7 +189,7 @@ require("./template.jade");
 require("./image.png");
 ```
 
-更多可参考[使用loaders][Using Loaders]和[loaders][Loaders]内容。
+更多可参考[使用loaders][using loaders]和[loaders][loaders]内容。
 
 ## 静态分析
 
@@ -208,9 +208,8 @@ require("./image.png");
 [AMD]: https://github.com/amdjs/amdjs-api/wiki/AMD
 [require.js]: http://requirejs.org/
 [curl]: https://github.com/cujojs/curl
-[GWT]: https://developers.google.com/web-toolkit/doc/latest/DevGuideCodeSplitting
-[CommonJs]: ../API/Commonjs.md
-[Code Spliting]: ../GUIDES/Code Splitting.md
-[Loaders]: ../API/Loaders.md
-[Using Loaders]: Using Loaders.md
+[commonJs]: ../API/Commonjs.md
+[code spliting]: ../GUIDES/Code Splitting.md
+[loaders]: ../API/Loaders.md
+[using loaders]: Using Loaders.md
 [Google's GWT]: https://developers.google.com/web-toolkit/doc/latest/DevGuideCodeSplitting
