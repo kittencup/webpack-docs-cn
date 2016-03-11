@@ -209,7 +209,7 @@ require("./image.png");
 [require.js]: http://requirejs.org/
 [curl]: https://github.com/cujojs/curl
 [commonJs]: ../API/Commonjs.md
-[code spliting]: ../GUIDES/Code Splitting.md
+[code spliting]: ../GUIDES/Code-Splitting.md
 [loaders]: ../API/Loaders.md
-[using loaders]: Using Loaders.md
+[using loaders]: Using-Loaders.md
 [Google's GWT]: https://developers.google.com/web-toolkit/doc/latest/DevGuideCodeSplitting
