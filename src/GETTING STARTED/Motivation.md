@@ -97,7 +97,7 @@ define("mymodule", ["dep1", "dep2"], function(d1, d2) {
 - require.js - 客户端
 - curl - 客户端
 
-可阅读更多关于[CommonJS](http://webpack.github.io/docs/commonjs.html)和[AMD](http://webpack.github.io/docs/amd.html)的内容
+可阅读更多关于[CommonJS](../GUIDES/Commonjs.md)和[AMD](../GUIDES/AMD.html)的内容
 
 ### ES6 模块
 
@@ -157,7 +157,7 @@ module "localModule" {}
 
 注：此[想法来自Google's GWT](https://developers.google.com/web-toolkit/doc/latest/DevGuideCodeSplitting)。
 
-可阅读更多关于[代码拆分](http://webpack.github.io/docs/code-splitting.html)内容。
+可阅读更多关于[代码拆分](../GUIDES/Code Splitting.md)内容。
 
 ## 为什么只处理JavaScript？
 
@@ -189,7 +189,7 @@ require("./template.jade");
 require("./image.png");
 ```
 
-更多可参考[使用loaders](Using%20Loaders.md)和[loader](../API/Loaders.md)。
+更多可参考[使用loaders](Using%20Loaders.md)和[loader](../API/Loaders.md)内容。
 
 ## 静态分析
 
