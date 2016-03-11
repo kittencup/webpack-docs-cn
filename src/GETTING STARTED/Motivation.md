@@ -49,7 +49,7 @@ exports.doStuff = function() {};
 module.exports = someValue;
 ```
 
-服务器端的[node.js](http://nodejs.org)用的就是这个方法。
+服务器端的[node.js][node.js]用的就是这个方法。
 
 优点:
 
@@ -64,10 +64,10 @@ module.exports = someValue;
 
 实现:
 
-- [node.js](http://nodejs.org) - 服务端 
-- [browserify](https://github.com/substack/node-browserify)
-- [modules-webmake](https://github.com/medikoo/modules-webmake)，打包为一个bundle
-- [wreq](https://github.com/substack/wreq) - 客户端
+- [node.js][node.js] - 服务端 
+- [browserify][browserify]
+- [modules-webmake][modules-webmake]，打包为一个bundle
+- [wreq][wreq] - 客户端
 
 ### AMD：异步 require
 
@@ -97,7 +97,7 @@ define("mymodule", ["dep1", "dep2"], function(d1, d2) {
 - require.js - 客户端
 - curl - 客户端
 
-可阅读更多关于[CommonJS](../GUIDES/Commonjs.md)和[AMD](../GUIDES/AMD.html)的内容
+可阅读更多关于[CommonJS][CommonJs]和[AMD][AMD]的内容
 
 ### ES6 模块
 
@@ -155,9 +155,9 @@ module "localModule" {}
 
 → 可以组成一个大的代码库
 
-注：此[想法来自Google's GWT](https://developers.google.com/web-toolkit/doc/latest/DevGuideCodeSplitting)。
+注：此[想法来自Google's GWT][Google's GWT]。
 
-可阅读更多关于[代码拆分](../GUIDES/Code Splitting.md)内容。
+可阅读更多关于[代码拆分][Code Spliting]内容。
 
 ## 为什么只处理JavaScript？
 
@@ -189,7 +189,7 @@ require("./template.jade");
 require("./image.png");
 ```
 
-更多可参考[使用loaders](Using%20Loaders.md)和[loader](../API/Loaders.md)内容。
+更多可参考[使用loaders][Using Loaders]和[loaders][Loaders]内容。
 
 ## 静态分析
 
@@ -200,3 +200,17 @@ require("./image.png");
 ### 策略
 
 一个智能的解析器会使得大多数代码能跑起来。即便程序员写了些很奇怪的代码，它还是能找到最兼容的办法。
+
+[node.js]: http://nodejs.org
+[browserify]: https://github.com/substack/node-browserify
+[modules-webmake]: https://github.com/medikoo/modules-webmake
+[wreq]: https://github.com/substack/wreq
+[AMD]: https://github.com/amdjs/amdjs-api/wiki/AMD
+[require.js]: http://requirejs.org/
+[curl]: https://github.com/cujojs/curl
+[GWT]: https://developers.google.com/web-toolkit/doc/latest/DevGuideCodeSplitting
+[CommonJs]: ../API/Commonjs.md
+[Code Spliting]: ../GUIDES/Code Splitting.md
+[Loaders]: ../API/Loaders.md
+[Using Loaders]: Using Loaders.md
+[Google's GWT]: https://developers.google.com/web-toolkit/doc/latest/DevGuideCodeSplitting
