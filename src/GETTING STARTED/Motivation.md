@@ -189,7 +189,7 @@ require("./template.jade");
 require("./image.png");
 ```
 
-更多可参考[使用loaders](Using%20Loaders.md)和[loader]()。
+更多可参考[使用loaders](Using%20Loaders.md)和[loader](../API/Loaders.md)。
 
 ## 静态分析
 
