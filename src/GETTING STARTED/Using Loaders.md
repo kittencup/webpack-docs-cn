@@ -137,7 +137,7 @@ webpack --module-bind "png=url-loader?mimetype=image/png"
 ```
 
 [loaders]: ../API/Loaders.md
-[list-of-loaders]: ../LISTS/List of loaders.md
+[list-of-loaders]: ../LISTS/List-of-loaders.md
 [resolving]: ../API/Resolving.md
 [configuration]: ../API/Configuration.md
 [cli]: ../API/Cli.md
